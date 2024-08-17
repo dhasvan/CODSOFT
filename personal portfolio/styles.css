@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(135deg, #44f0ae, #19f8d7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: linear-gradient(135deg, #f36849, #f61010);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+}
+
+.main-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    background: linear-gradient(135deg, #438af6, #629cf3, #088ce4);
+    z-index: -1;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+    background: linear-gradient(135deg, #26fa70, #00cd60);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.skills {
+    background: linear-gradient(135deg, #fc4fbd, #ff7b7b);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin: 0.5rem;
+}
+
+.projects {
+    background: linear-gradient(135deg, #39c5f4, #027bf4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.project-item {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.project-item img {
+    border-radius: 4px;
+}
+
+.resume {
+    background: linear-gradient(135deg, #e8ec67, #d8fa30);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.resume-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.resume-link:hover {
+    background: #555;
+}
+
+.contact {
+    background: linear-gradient(135deg, #a7a3a3, #676565);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: linear-gradient(135deg, #333, #444);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}

@@ -1,0 +1,196 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #63c5fa; /* Light Pink */
+    padding: 20px 0;
+}
+
+header .logo h1 {
+    margin: 0;
+    color: rgb(255, 0, 0);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #880e4f; /* Deep Pink */
+}
+
+nav ul li .btn {
+    background: #c2185b; /* Pink */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li .btn:hover {
+    background: #880e4f; /* Deep Pink */
+}
+
+/* Banner Styles */
+.banner {
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 5px 0;
+    min-height: 200px;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 4rem;
+    color: #ffffff; /* White */
+}
+
+.banner p {
+    margin: 10px 0 20px;
+    color: #ffffff;
+}
+
+.banner .btn {
+    background: #ff4081; /* Bright Pink */
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.banner .btn:hover {
+    background: #c2185b; /* Pink */
+}
+
+/* Services Styles */
+.services {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb, #d4fc79); /* Light Blue to gradient */
+    color: #212121; /* Dark Grey */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services .service {
+    margin: 20px 0;
+}
+
+/* About Us Styles */
+.about-us {
+    background: #e1bee7; /* Light Lavender */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us h2 {
+    margin-bottom: 20px;
+    color: #4a148c; /* Deep Purple */
+}
+
+.about-us .btn {
+    background: #8e24aa; /* Purple */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.about-us .btn:hover {
+    background: #4a148c; /* Deep Purple */
+}
+
+/* Our Services Styles */
+.our-services {
+    background: #ffffff; /* White */
+    padding: 50px 0;
+}
+
+.our-services .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.our-services .service-box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background: #c5cae9; /* Light Blue */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.our-services .service-box h4 {
+    margin-top: 0;
+    color: #303f9f; /* Indigo */
+}
+
+.our-services .service-box p {
+    color: #1a237e; /* Dark Indigo */
+}
+
+/* Contact Form Styles */
+.contact-form {
+    background: #bbdefb; /* Light Blue */
+    padding: 50px 0;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0d47a1; /* Dark Blue */
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #0d47a1; /* Dark Blue */
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #1a237e; /* Dark Indigo */
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #3949ab; /* Indigo */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #1a237e; /* Dark Indigo */
+}
+
+
